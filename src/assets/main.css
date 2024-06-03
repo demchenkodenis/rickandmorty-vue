@@ -1,0 +1,35 @@
+@import './base.css';
+
+body {
+  background: rgb(32, 35, 41);
+}
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+/* @media (min-width: 576px) {
+  #app {
+    padding: 0 calc(50% - 270px);
+  }
+}
+
+@media (min-width: 768px) {
+  #app {
+    padding: 0 calc(50% - 360px);
+  }
+}
+
+@media (min-width: 992px) {
+  #app {
+    padding: 0 calc(50% - 480px);
+  }
+}
+
+@media (min-width: 1200px) {
+  #app {
+    padding: 0 calc(50% - 590px);
+  }
+} */
