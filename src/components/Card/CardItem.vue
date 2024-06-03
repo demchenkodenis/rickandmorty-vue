@@ -91,6 +91,7 @@ const statusColor = (status) => (status === 'Alive' ? 'green' : status === 'Dead
 </script>
 <style scoped lang="scss">
 .card {
+  justify-self: center;
   display: flex;
   border: 1px solid var(--vt-c-black-mute);
   border-radius: 4px;
@@ -147,6 +148,14 @@ const statusColor = (status) => (status === 'Alive' ? 'green' : status === 'Dead
         color: var(--vt-c-white);
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    max-width: 100%;
+    min-height: initial;
   }
 }
 </style>

@@ -122,5 +122,15 @@ watch(currentPage, async (newPage, oldPage) => {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 16px;
+  place-content: center;
+}
+
+@media (max-width: 1295px) {
+  .character-cards {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 </style>

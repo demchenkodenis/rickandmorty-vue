@@ -92,4 +92,12 @@ const handleFilterReset = () => {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .filter {
+    form {
+      flex-direction: column;
+    }
+  }
+}
 </style>
